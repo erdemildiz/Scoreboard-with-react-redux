@@ -1,0 +1,86 @@
+@import "./reset";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  padding: 10px;
+  .board-main-title {
+    margin: 10px 0;
+  }
+  // Title
+  .board-title {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  // Player
+  .player {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 5px;
+
+    .player-info {
+      cursor: pointer;
+      flex: 2;
+      text-align: left;
+    }
+    .points {
+      span {
+        border: 1px solid;
+        cursor: pointer;
+        padding: 3px;
+        margin-left: 5px;
+      }
+      label {
+        display: inline-block;
+        margin:0 10px 0 40px;
+        width: 20px;
+      }
+    }
+  }
+  // Total
+  .board-total {
+    display: block;
+    padding-right: 15px;
+    text-align: right;
+
+    h3, span {
+      display: inline-block;
+    }
+    h3 {
+      margin-right: 30px;
+    }
+  }
+  // Add & Edit
+  .board-add-edit {
+    display: flex;
+    margin: 15px 0;
+
+    input {
+      border: 2px solid;
+      flex: 2px;
+      font-size: 12pt;
+      height: 30px;
+      margin-right: 10px;
+    }
+    #save-btn {
+      background-color: blue;
+      border: none;
+      color: white;
+      margin-right: 5px;
+    }
+  }
+  // Play
+  .play {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 10px;
+  }
+}
