@@ -1,6 +1,6 @@
 # Scoreboard with React-Redux
 ```sh
-$ cd scoreboard
+$ cd Scoreboard-with-react-redux
 $ npm install
 $ npm start
 ```
